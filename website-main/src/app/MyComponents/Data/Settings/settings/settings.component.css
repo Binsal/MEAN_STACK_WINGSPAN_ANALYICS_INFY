@@ -1,0 +1,10 @@
+.buttons button{
+    width: 30%;
+    height: 10%;
+    border-color: black;
+}
+
+.buttons  :hover{
+    border-radius: 100px;
+    color: rgb(247, 4, 194);
+}

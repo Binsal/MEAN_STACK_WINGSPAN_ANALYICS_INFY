@@ -1,0 +1,11 @@
+[{  "id": "1",  "team_api_id": "10260",  "team_fifa_api_id": "11",  "team_long_name": "Manchester United",  "team_short_name": "MUN"},
+    {  "id": "2",  "team_api_id": "8650",  "team_fifa_api_id": "9",  "team_long_name": "Liverpool",  "team_short_name": "LIV"},
+    {  "id": "3",  "team_api_id": "8456",  "team_fifa_api_id": "10",  "team_long_name": "Manchester City",  "team_short_name": "MCI"},
+    {  "id": "4",  "team_api_id": "8455",  "team_fifa_api_id": "5",  "team_long_name": "Chelsea",  "team_short_name": "CHE"},
+    {  "id": "5",  "team_api_id": "8658",  "team_fifa_api_id": "88",  "team_long_name": "Birmingham City",  "team_short_name": "BIR"},
+    {  "id": "6",  "team_api_id": "8466",  "team_fifa_api_id": "17",  "team_long_name": "Southampton",  "team_short_name": "SOU"},
+    {  "id": "7",  "team_api_id": "9885",  "team_fifa_api_id": "45",  "team_long_name": "Juventus",  "team_short_name": "JUV"},
+    {  "id": "8",  "team_api_id": "8564",  "team_fifa_api_id": "47",  "team_long_name": "Milan",  "team_short_name": "ACM"},
+    {  "id": "9",  "team_api_id": "8633",  "team_fifa_api_id": "243",  "team_long_name": "Real Madrid CF",  "team_short_name": "REA"},
+    {  "id": "10",  "team_api_id": "8634",  "team_fifa_api_id": "241",  "team_long_name": "FC Barcelona",  "team_short_name": "BAR"}]
+    

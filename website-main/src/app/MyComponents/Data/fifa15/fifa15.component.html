@@ -1,0 +1,16 @@
+<table border="=1">
+    <thead>
+        <tr>
+            <th *ngFor="let hed of list1 let i=index">{{hed}}</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let bot of csvData let j=index">
+            <th *ngFor="let botele of bot let k=index" >
+                {{botele}}  
+            </th>
+
+        </tr>
+    </tbody>
+    
+</table>

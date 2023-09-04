@@ -1,0 +1,52 @@
+<div class="container">
+  <h2>Teams &nbsp;Participated...</h2>
+  <div *ngFor="let ParticipantTeam of ParticipantTeam" class="container" class="b3">
+    <div *ngIf="ParticipantTeam.league == id" class="btn btn-light b2">
+      {{ParticipantTeam.team}}
+    </div>
+  </div>
+</div>
+<p></p>
+<hr>
+<p></p>
+<div class="count1">
+  <div>
+    <table border="1">
+      <thead>
+        <th border="1" *ngFor="let hed of columnName let i=index">{{hed}}</th>
+        <tr border="1">
+        </tr>
+      </thead>
+      <tbody *ngFor="let MatchData of matches">
+        <tr *ngIf="MatchData.league == id">
+          <th>
+            {{MatchData.date}}
+          </th>
+          <th>
+            {{MatchData.season}}
+          </th>
+    
+          <th>
+            {{MatchData.home_team}}
+          </th>
+          <th>
+            {{MatchData.away_team}}
+          </th>
+          <th>
+            {{MatchData.home_team_goal}}
+          </th>
+          <th>
+            {{MatchData.away_team_goal}}
+          </th>
+          <th>
+            {{MatchData.result}}
+          </th>
+
+        </tr>
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>

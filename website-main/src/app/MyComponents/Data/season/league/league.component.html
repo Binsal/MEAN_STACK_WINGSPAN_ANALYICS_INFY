@@ -1,0 +1,15 @@
+<div class="content">
+    <div fxLayout="row wrap" >
+        <div fxFlex="25%" (click)="gotLeagueDetails(league)" *ngFor="let league of LeagueData" class="b2">
+        
+            <mat-card  class="mat-elevation">
+                <mat-card-header class="mat-header">
+                    {{league.name}}
+    
+                </mat-card-header>
+                
+            </mat-card>
+        
+        </div>
+    </div>
+</div>

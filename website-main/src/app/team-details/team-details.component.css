@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+.name{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.b1{
+    border:0.2px solid red;
+    margin: 0.3rem;
+}
+
+h2{
+    font-family: 'Tapestry', cursive;
+    padding: 0.5rem;
+}
+
+hr{
+    color: rgb(108, 54, 22);
+    width: 50vw;
+    height: 0.5vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+.content{
+    padding: 15px;
+    display: flex;;
+}
+
+
+.mat-elevation{
+    background-color: rgb(175, 236, 201);
+    margin: 15px;
+    width: 29vw;
+    height: 11vh;
+}
+.mat-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight: bold;
+    position: absolute;
+    text-align: center; 
+}
+
+.b2{
+    display: inline-block;
+}

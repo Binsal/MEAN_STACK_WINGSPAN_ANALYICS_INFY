@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+table,tr,th,td{
+    border:2px outset ;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+    border-style:bold;
+}
+
+.btn{
+    text-align: center;
+}
+
+.b2{
+    border: 1px solid ;
+    width: 21.6vw;
+    height: 8vh;
+    margin: 1px;
+}
+
+.b2:hover{
+    border-radius: 100px;
+    border-color: rgb(210, 3, 3);
+}
+
+h2{
+    font-family: 'Tapestry', cursive;
+}
+
+.b3{
+    display: inline-block;
+}
+
+.count1{
+    margin: auto;
+    padding: 1rem;
+    
+}

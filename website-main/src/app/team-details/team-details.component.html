@@ -1,0 +1,36 @@
+<h2>Squad</h2>
+<hr>
+<div class="name">
+    <div *ngFor="let Player of PlayerTeam" >
+        <div *ngIf="Player.club_name == id" class="btn btn-light b1">
+            {{Player.player_name}}
+        </div>
+    </div>
+</div>
+
+<div>
+    <div *ngFor="let team of teamstatus">
+        <div *ngIf="team.team_long_name==id">
+            <mat-card  class="mat-elevation">
+                <mat-card-header class="mat-header"> Total matches </mat-card-header>
+                <mat-card-subtitle class="mat-header">{{team.matches}}</mat-card-subtitle>  
+            </mat-card>
+            <mat-card  class="mat-elevation">
+                <mat-card-header class="mat-header">  Won </mat-card-header>
+                <mat-card-subtitle class="mat-header">{{team.won}}</mat-card-subtitle>  
+            </mat-card>
+            <mat-card  class="mat-elevation">
+                <mat-card-header class="mat-header">  Lost </mat-card-header>
+                <mat-card-subtitle class="mat-header">{{team.lost}}</mat-card-subtitle>  
+            </mat-card>
+            <mat-card  class="mat-elevation">
+                <mat-card-header class="mat-header">  Draw </mat-card-header>
+                <mat-card-subtitle class="mat-header">{{team.draw}}</mat-card-subtitle>  
+            </mat-card>  
+            <mat-card  class="mat-elevation">
+                <mat-card-header class="mat-header"> Win Percentage </mat-card-header>
+                <mat-card-subtitle class="mat-header">{{team.win_percentage}}%</mat-card-subtitle>  
+            </mat-card>         
+        </div>
+    </div>
+</div>

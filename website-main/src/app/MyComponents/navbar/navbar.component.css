@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+
+nav{
+    font-family:'Ramaraja', sans-serif;
+    background-color: rgb(181, 205, 226);
+}
+
+.title{
+    padding: 1.5vw;
+}
+
+.bar{
+    padding: 1.5vw;
+    width: 30vw;
+    height: 7vh;
+}
+
+div ul li a:hover{
+    color: blueviolet;
+    text-decoration: underline yellow;
+}
+
+div form{
+    padding: 1.5vw;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+h3{
+    font-family: 'Tapestry', cursive;
+}
+
+.content {      
+    display: inline-block;
+}
+
+.mat-elevation{
+    background-color: rgb(175, 236, 201);
+    margin: 15px;
+    width: 25vw;
+}
+.mat-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight: bold;
+    position: relative; 
+}
+ 
+
+
+.about hr{
+    width: 400px;
+    height: 1.5px;
+}
+
+.box{
+    padding: 2.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box img{
+    margin-left: 0px;
+}
+
+.about{
+    font-family: Orelega-one,sans-serif;
+    padding: 1.5rem;
+}

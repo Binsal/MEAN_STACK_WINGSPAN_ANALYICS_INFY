@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+.content{
+    padding: 15px;
+    display: flex;;
+}
+
+
+.mat-elevation{
+    background-color: rgb(175, 236, 201);
+    margin: 15px;
+    width: 29vw;
+    height: 11vh;
+}
+.mat-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight: bold;
+    position: absolute;
+    text-align: center; 
+}
+
+h2{
+    font-family: 'Tapestry', cursive;
+}
+
+.b2{
+    display: inline-block;
+}
